@@ -1,9 +1,14 @@
 # Purpose
 Show an example AWS CodeDeploy CLI command needed to trigger a deployment of the ECS Blue/Green deployment strategy. 
 
+# Pre-requisites
+
+1. AWS CLI installed and configured.
+2. An existing ECS Service configured for Blue/Green Deployment. 
+
 # Example
 
-Update the TaskDefinition ARN below as needed:
+Update the application names, deployment groups, etc. as needed, below:
 
 ```sh
 #!/usr/bin/bash
